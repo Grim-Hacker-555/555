@@ -1,5 +1,5 @@
 import os,sys
-form time import sleep as t
+from time import sleep as t
 os.system("figlet hi world")
 t(0.6)
 os.system("clear && figlet keren")
