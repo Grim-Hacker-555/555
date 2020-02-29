@@ -10,6 +10,6 @@ os.system("clear")
 while True :
 	print a
 	a += 1
-	if a == b :
+	if a == b + 1 :
 		sys.exit("Password List successfully")
 	os.system("echo %s >> %s" %(a,c))
